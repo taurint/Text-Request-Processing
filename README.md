@@ -12,24 +12,18 @@ AI-агент для обработки текстовых обращений.
 
 ## Как запустить
 
-### 1. Клонировать репозиторий
+## Как запустить
 
-git clone [URL репозитория]
-cd [папка репозитория]
+### Если в Google Colab
+1. Откройте agent.ipynb в Colab
+2. Добавьте ваш OpenAI API ключ в Secrets (🔑 → Name: OPENAI_API_KEY → Value: sk-ваш-ключ)
+3. Выполните все ячейки
 
-### 2. Установить зависимости
-
-pip install -r requirements.txt
-
-### 3. Добавить API-ключ OpenAI
-
-Создайте файл .env в корне проекта и добавьте строку:
-
-OPENAI_API_KEY=sk-your-key-here
-
-### 4. Запустить
-
-Откройте agent.ipynb в Jupyter Notebook или Google Colab. Выполните все ячейки по порядку.
+### Если локально
+1. Клонируйте репозиторий
+2. Установите зависимости: pip install -r requirements.txt
+3. Создайте файл .env с ключом: OPENAI_API_KEY=sk-ваш-ключ
+4. Запустите Jupyter и откройте agent.ipynb
 
 ## Пример входного запроса
 
