@@ -12,8 +12,6 @@ AI-агент для обработки текстовых обращений.
 
 ## Как запустить
 
-## Как запустить
-
 ### Если в Google Colab
 1. Откройте agent.ipynb в Colab
 2. Добавьте ваш OpenAI API ключ в Secrets (🔑 → Name: OPENAI_API_KEY → Value: sk-ваш-ключ)
